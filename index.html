@@ -13,46 +13,48 @@
     <div id="intro">
         <h1>A normal web calculator by Salman Ahmed</h1>
     </div>
-    <div id="calculator" class="">
-        <div id="input">
-            <div>
-                <h2>Please enter first number:</h2>
+    <div class="something">
+            <div id="calculator" class="">
+                <div id="input">
+                    <div>
+                        <h2>Please enter first number:</h2>
+                    </div>
+                    <div>
+                        <input type="text" id="n1" maxlength="7" placeholder="0.0">
+                    </div>
+                    <div>
+                        <h2>please enter second number:</h2>
+                    </div>
+                    <div>
+                        <input type="text" id="n2" maxlength="7" placeholder="0.0">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h2>please select operation:</h2>
+                    </div>
+                    <div>
+                        <select id="opr">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="x">x</option>
+                            <option value="/">/</option>
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="button" class="calculate" value="calculate" onclick="calc();">
+                    </div>
+                </div>
+                <div id="res">
+                    <div>
+                        <h2>Result:</h2>
+                    </div>
+                    <div>
+                        <input type="text" name="" id="result">
+                    </div>
+                </div>
             </div>
-            <div>
-                <input type="text" id="n1" maxlength="7" placeholder="0.0">
-            </div>
-            <div>
-                <h2>please enter second number:</h2>
-            </div>
-            <div>
-                <input type="text" id="n2" maxlength="7" placeholder="0.0">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h2>please select operation:</h2>
-            </div>
-            <div>
-                <select  id="opr">
-                    <option value="+">+</option>
-                    <option value="-">-</option>
-                    <option value="x">x</option>
-                    <option value="/">/</option>
-                    <option value="%">%</option>
-                </select>
-            </div>
-            <div>
-                <input type="button" class="calculate" value="calculate" onclick="calc();">
-            </div>
-        </div>
-        <div id="res">
-            <div>
-                <h2>Result:</h2>
-            </div>
-            <div>
-                <input type="text" name="" id="result">
-            </div>
-        </div>
     </div>
 </body>
 </html>

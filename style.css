@@ -20,17 +20,32 @@ h1{
     font-size:40px;
     text-align: center;
 }
+.something{
+    position: relative;
+    margin-top: 400px;
+}
 #calculator{
     background-color: #DDA15E;
     padding: 40px;
     border-radius: 10px;
     justify-content: center;
-    position: relative;
-    display: grid;
+    /* width: 70%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    box-sizing: border-box;
+    /* margin: 0,auto; */
+    
+    border:2px solid rebeccapurple;
+    
 }
 select{
     margin-top: 10px;
     margin-bottom: 15px;
+    padding: 3%;
+    border-radius: 6px;
 }
 input{
     padding: 10px;
@@ -40,4 +55,5 @@ input{
 }
 .calculate{
     font-size: large;
+    font-weight: 700;
 }
